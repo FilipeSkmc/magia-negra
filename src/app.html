@@ -1,0 +1,19 @@
+<template>
+      <lightning-card title="Criar Conta">
+            <div class="slds-m-around_medium">
+                  <!-- campo para nome  -->
+                  <lightning-input type="text" label="Nome Completo" name="name" onchange={handleInputChange}>
+                  </lightning-input>
+                  <!-- campo para telefone -->
+                  <lightning-input type="text" label="Telefone" name="phone" onchange={handleInputChange}>
+                  </lightning-input>
+                  <!-- crie um campo email,  onde o valor desse campo deve ir para uma variável email, no js -->
+                  <lightning-input type="text" label="Email" name="website" onchange={handleInputChange}>
+                  </lightning-input>
+
+                  <!-- botão para inserir -->
+                  <lightning-button variant="brand" label="Inserir" title="Inserir Conta" onclick={handleClick}
+                        class="slds-m-left_x-small"></lightning-button>
+            </div>
+      </lightning-card>
+</template>
